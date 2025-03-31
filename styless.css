@@ -18,7 +18,7 @@ header{
     width: 85rem;
     height: 5rem;
     position: fixed;
-    backdrop-filter: blur(5rem);
+    backdrop-color:white;
     z-index: 999;
 }
 
@@ -1362,13 +1362,12 @@ footer .f4 .f4-two img{
         }
 
         header .ham{
-            display: block; 
-            margin-left: 29rem;
-            font-size: 2rem;
+            display: none; 
+
         }
 
         header nav ul{
-            display: none;
+            display: block;
         }
 
                 /*main*/
@@ -1494,16 +1493,14 @@ footer .f4 .f4-two img{
                     width: 85rem;
                     justify-content: space-around;
                 }
-        
-                header .ham{
-                    display: block; 
-                    margin-left: 38rem;
-                    font-size: 2rem;
-                }
-        
-                header nav ul{
-                    display: none;
-                }
+        header .ham{
+            display: none; 
+
+        }
+
+        header nav ul{
+            display: block;
+        }
 
 
                 /*main*/
