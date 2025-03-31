@@ -1367,7 +1367,7 @@ footer .f4 .f4-two img{
         }
 
         header nav ul{
-            display: block;
+            display: flex;
         }
 
                 /*main*/
