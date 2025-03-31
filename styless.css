@@ -1234,13 +1234,12 @@ footer .f4 .f4-two img{
             width: 56rem;
         }
         header .ham{
-            display: block; 
-            margin-left: 21rem;
-            font-size: 2rem;
+            display: none; 
+         
         }
 
         header nav ul{
-            display: none;
+            display: flex;
         }
 
 
